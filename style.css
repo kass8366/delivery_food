@@ -38,3 +38,6 @@ button{
     line-height: 94.8%; /* 20.856px */
     cursor: pointer;
 }
+.search_input{
+    width: 314px;
+}
