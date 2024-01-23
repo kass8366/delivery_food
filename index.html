@@ -4,23 +4,55 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Delivery Food</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
 </head>
 <link rel="stylesheet" href="./style.css">
   <body>
-    <div class="wrapper">
+    <section class="wrapper">
       <nav>
         <img src="./svg/chef-hat (2) 1.svg" alt="logo"/>
         <button class="logo_button">Foo</button>
         <ul class="nav">
-          <li class="nav_element"><button>Home</button></li>
-          <li class="nav_element"><button>Menu</button></li>
-          <li class="nav_element"><button>Contact</button></li>
-          <li class="nav_element"><button>Shop</button></li>
+          <li class="nav_element"><button class="nav_element_btn">Home</button></li>
+          <li class="nav_element"><button class="nav_element_btn">Menu</button></li>
+          <li class="nav_element"><button class="nav_element_btn">Contact</button></li>
+          <li class="nav_element"><button class="nav_element_btn">Shop</button></li>
         </ul>
         <input type="text" placeholder="Search" class="search_input">
-        
-        <img src="./svg/Group 2.svg" alt="logo"/>
       </nav>
-    </div>
+      <div class="info">
+        <div class="info_left">
+          <div class="info_headers">
+            <h2 class="info_headers_2">Fast</h2>
+            <h1 class="info_headers_1">Food <hr/> Delivery</h1>
+
+          </div>
+          <p class="info_text">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium</p>
+          <div class="info_order">
+            <button class="order_btn">Order Now</button>
+            <button class="watch_btn">
+              <img class="watch_btn_img" src="./svg/play-button-svgrepo-com.svg">
+              <p class="watch_btn_text">Watch video</p>
+            </button>
+          </div>
+          <div class="star">
+            <img class="star_svg_first" src="./svg/emojione_star.svg">
+            <img class="star_svg" src="./svg/emojione_star.svg">
+            <img class="star_svg" src="./svg/emojione_star.svg">
+            <img class="star_svg" src="./svg/emojione_star.svg">
+            <img class="star_svg" src="./svg/emojione_star.svg">
+          </div>
+          <div> 
+            <p class="text_1">5 star rating</p>
+            <p class="text_2">based on 1788 reviews</p>
+          </div>
+        </div>
+        <div class="info_right">
+          <img src="./img/food.png" class="info_img" alt="food">
+        </div>
+      </div>
+    </section>
   </body>
 </html>
